@@ -3,9 +3,12 @@
   <xs:element name="promotion" type="promotionType" />
   <xs:element name="department" type="departmentType" />
   <xs:element name="class" type="classType" />
-  <xs:complexType name='eBookType'>
+  <xs:complexType name="person">
+  	
+  </xs:complexType>
+  <xs:complexType name='student'>
 	<xs:complexContent>
-		<xs:extension base='bookType'>
+		<xs:extension base='person'>
 			<xs:sequence>
 				<xs:element name='URI' type='uriReference'/>
 			</xs:sequence>
