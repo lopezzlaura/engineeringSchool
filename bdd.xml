@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="index.css" type="text/css"?>
+<!DOCTYPE book SYSTEM "polytech.dtd"
+	[
+		<!ENTITY f "feminin">
+		<!ENTITY m "masculin">
+		<!ENTITY fr "FRANCE">
+		<!ENTITY unice "etu.unice.fr">
+	]
+>
+<polytech>
+	<
+</polytech>
