@@ -1,52 +1,42 @@
-<xs:schema xmlns:xs="http://www.polytech.com/cv">
+<xs:schema xmlns:xs="http://www.polytech.com/engineeringSchool">
   <xs:element name="school" type="engineeringSchool" />
-  <xs:element name="promotion" type="promotionType" />
   <xs:element name="department" type="departmentType" />
   <xs:element name="class" type="classType" />
-  <xs:complexType name='eBookType'>
-	<xs:complexContent>
-		<xs:extension base='bookType'>
-			<xs:sequence>
-				<xs:element name='URI' type='uriReference'/>
-			</xs:sequence>
-		</xs:extension>
-	</xs:complexContent>
+  
+  <xs:complexType name="engineeringSchool">
+	<xs:sequence>
+		<xs:element name="department" type="departmentType" />
+	</xs:sequence>
+	<xs:attribute name="name" type="xs:string"/>
+	<xs:attribute name="city" type="xs:string"/>
+  </xs:complexType> 
+  
+  <xs:complexType name="departmentType">
+	<xs:sequence>
+		<xs:element name="promotion" type="promotionType" />
+	</xs:sequence>
+	<xs:attribute name="label" type="xs:string"/>
   </xs:complexType>
   
-  <xs:complexType name='engineeringSchool'>
+  <xs:complexType name="promotionType">
+	<xs:sequence>
+		<xs:element name="author" type="authorType"/>
+		<xs:element name="title" type="xs:string"/>
+		<xs:element name="publisher" type="xs:string"/>
+		<xs:element name="year" type="xs:integer"/> 
+	</xs:sequence>
+	<xs:attribute name="year" type="xs:string"/>
+  </xs:complexType> 
+  
+  <xs:complexType name="engineeringSchool">
 	<xs:sequence>
 		
 	</xs:sequence>
-	<xs:attribute name='name' type=‘xs:string'/>
-	<xs:attribute name='city' type=‘xs:string'/>
-  </xs:complexType> 
-  
-  <xs:complexType name='promotionType'>
-	<xs:sequence>
-		<xs:element name='author' type='authorType'/>
-		<xs:element name='title' type=‘xs:string'/>
-		<xs:element name='publisher' type=‘xs:string'/>
-		<xs:element name='year' type=‘xs:integer'/> 
-	</xs:sequence>
-	<xs:attribute name='year' type=‘xs:string'/>
-  </xs:complexType> 
-  
-  <xs:complexType name='departmentType'>
-	<xs:sequence>
-		
-	</xs:sequence>
-	<xs:attribute name='label' type=‘xs:string'/>
-  </xs:complexType> 
-  
-  <xs:complexType name='engineeringSchool'>
-	<xs:sequence>
-		
-	</xs:sequence>
-	<xs:attribute name='name' type=‘xs:string'/>
-	<xs:attribute name='city' type=‘xs:string'/>
+	<xs:attribute name="name" type="xs:string"/>
+	<xs:attribute name="city" type="xs:string"/>
   </xs:complexType>
   
-  <xs:complexType name='classType'>
+  <xs:complexType name="classType">
 	<xs:sequence>
 		
 	</xs:sequence>
