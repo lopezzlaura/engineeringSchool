@@ -2,6 +2,19 @@
   <xs:element name="school" type="engineeringSchool" />
   <xs:element name="department" type="departmentType" />
   <xs:element name="class" type="classType" />
+
+  <xs:complexType name="person">
+  	
+  </xs:complexType>
+  <xs:complexType name='student'>
+	<xs:complexContent>
+		<xs:extension base='person'>
+			<xs:sequence>
+				<xs:element name='URI' type='uriReference'/>
+			</xs:sequence>
+		</xs:extension>
+	</xs:complexContent>
+  </xs:complexType>
   
   <xs:complexType name="engineeringSchool">
 	<xs:sequence>
