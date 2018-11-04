@@ -5,9 +5,211 @@
 		<!ENTITY f "feminin">
 		<!ENTITY m "masculin">
 		<!ENTITY fr "FRANCE">
-		<!ENTITY unice "etu.unice.fr">
+		<!ENTITY unice "@etu.unice.fr">
 	]
 >
-<polytech>
-	<
-</polytech>
+<engineeringSchool label="Polytech" city="Nice">
+	<department label="SI">
+		<promotion label="SI3">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+		<promotion label="SI4">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+			<student>
+				<name>Lopez</name>
+				<firstName>Laura</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>laura.lopez1&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+			<student>
+				<name>Croene</name>
+				<firstName>Hugo</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>hugo.croene&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+			<student>
+				<name>Humbert</name>
+				<firstName>Alix</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>alix.humbert&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+			<student>
+				<name>Ferré</name>
+				<firstName>Jérémi</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>jeremi.ferre&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+		</promotion>
+		<promotion label="SI5">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+	</department>
+	<department label="ELEC">
+		<promotion label="ELEC3">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+		<promotion label="ELEC4">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+			<student>
+				<name>Lopez</name>
+				<firstName>Laura</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>laura.lopez1&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+		</promotion>
+		<promotion label="ELEC5">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+	</department>
+	<department label="BAT">
+		<promotion label="BAT3">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+		<promotion label="BAT4">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+			<student>
+				<name>Lopez</name>
+				<firstName>Laura</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>laura.lopez1&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+		</promotion>
+		<promotion label="BAT5">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+	</department>
+	<department label="MAM">
+		<promotion label="MAM3">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+		<promotion label="MAM4">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+			<student>
+				<name>Lopez</name>
+				<firstName>Laura</firstName>
+				<DoB>07/11/1996</DoB>
+				<phoneNumber>0672520748</phoneNumber>
+				<email>laura.lopez1&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21401952</idStudent>
+			</student>
+		</promotion>
+		<promotion label="MAM5">
+			<student>
+				<name>Paillart</name>
+				<firstName>Mathieu</firstName>
+				<DoB>14/07/1997</DoB>
+				<phoneNumber>0608080808</phoneNumber>
+				<email>mathieu.paillart&unice;</email>
+				<country>&fr;</country>
+				<idStudent>21080808</idStudent>
+			</student>
+		</promotion>
+	</department>
+</engineeringSchool>
