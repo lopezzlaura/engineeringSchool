@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="index.css" type="text/css"?>
-<!DOCTYPE book SYSTEM "polytech.dtd"
+<!DOCTYPE engineeringSchool
 	[
 		<!ENTITY f "feminin">
 		<!ENTITY m "masculin">
@@ -8,7 +8,9 @@
 		<!ENTITY unice "@etu.unice.fr">
 	]
 >
-<engineeringSchool label="Polytech" city="Nice">
+<engineeringSchool label="Polytech" city="Nice"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="bdd_schema.xsd">
 	<department label="SI">
 		<promotion label="SI3">
 			<student>
@@ -212,13 +214,4 @@
 			</student>
 		</promotion>
 	</department>
-	<teacher>
-		<name>Jean</name>
-		<firstname>Kevin</firstname>
-		<DoB>14/07/1997</DoB>
-		<phoneNumber>0608080808</phoneNumber>
-		<email>jean.kevin&unice;</email>
-		<country>&fr;</country>
-		<idTeacher>210230323</idTeacher>
-	</teacher>
 </engineeringSchool>
