@@ -21,14 +21,18 @@
   <xs:complexType name="teacher">
   	<xs:complexContent>
   		<xs:extension base="person">
+            <xs:sequence>
   			<xs:element name="idTeacher" type="xs:string"/>
+            </xs:sequence>
         </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:complexType name="studentType">
 	<xs:complexContent>
 		<xs:extension base="person">
+            <xs:sequence>
 			<xs:element name="idStudent" type="xs:string"/>
+            </xs:sequence>
 		</xs:extension>
 	</xs:complexContent>
   </xs:complexType>

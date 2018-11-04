@@ -212,4 +212,13 @@
 			</student>
 		</promotion>
 	</department>
+	<teacher>
+		<name>Jean</name>
+		<firstname>Kevin</firstname>
+		<DoB>14/07/1997</DoB>
+		<phoneNumber>0608080808</phoneNumber>
+		<email>jean.kevin&unice;</email>
+		<country>&fr;</country>
+		<idTeacher>210230323</idTeacher>
+	</teacher>
 </engineeringSchool>
