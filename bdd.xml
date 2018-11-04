@@ -1,13 +1,6 @@
 <?xml version = "1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="index.css" type="text/css"?>
-<!DOCTYPE engineeringSchool
-	[
-		<!ENTITY f "feminin">
-		<!ENTITY m "masculin">
-		<!ENTITY fr "FRANCE">
-		<!ENTITY unice "@etu.unice.fr">
-	]
->
+<!DOCTYPE engineeringSchool>
 <engineeringSchool label="Polytech" city="Nice"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:noNamespaceSchemaLocation="bdd_schema.xsd">
@@ -18,8 +11,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -29,8 +22,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 			<student>
@@ -38,8 +31,8 @@
 				<firstName>Laura</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>laura.lopez1&unice;</email>
-				<country>&fr;</country>
+				<email>laura.lopez1@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 			<student>
@@ -47,8 +40,8 @@
 				<firstName>Hugo</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>hugo.croene&unice;</email>
-				<country>&fr;</country>
+				<email>hugo.croene@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 			<student>
@@ -56,8 +49,8 @@
 				<firstName>Alix</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>alix.humbert&unice;</email>
-				<country>&fr;</country>
+				<email>alix.humbert@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 			<student>
@@ -65,8 +58,8 @@
 				<firstName>Jérémi</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>jeremi.ferre&unice;</email>
-				<country>&fr;</country>
+				<email>jeremi.ferre@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 		</promotion>
@@ -76,8 +69,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -89,8 +82,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -100,8 +93,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 			<student>
@@ -109,8 +102,8 @@
 				<firstName>Laura</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>laura.lopez1&unice;</email>
-				<country>&fr;</country>
+				<email>laura.lopez1@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 		</promotion>
@@ -120,8 +113,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -133,8 +126,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -144,8 +137,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 			<student>
@@ -153,8 +146,8 @@
 				<firstName>Laura</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>laura.lopez1&unice;</email>
-				<country>&fr;</country>
+				<email>laura.lopez1@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 		</promotion>
@@ -164,8 +157,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -177,8 +170,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
@@ -188,8 +181,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 			<student>
@@ -197,8 +190,8 @@
 				<firstName>Laura</firstName>
 				<DoB>07/11/1996</DoB>
 				<phoneNumber>0672520748</phoneNumber>
-				<email>laura.lopez1&unice;</email>
-				<country>&fr;</country>
+				<email>laura.lopez1@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21401952</idStudent>
 			</student>
 		</promotion>
@@ -208,8 +201,8 @@
 				<firstName>Mathieu</firstName>
 				<DoB>14/07/1997</DoB>
 				<phoneNumber>0608080808</phoneNumber>
-				<email>mathieu.paillart&unice;</email>
-				<country>&fr;</country>
+				<email>mathieu.paillart@etu.unice.fr</email>
+				<country>FRANCE</country>
 				<idStudent>21080808</idStudent>
 			</student>
 		</promotion>
