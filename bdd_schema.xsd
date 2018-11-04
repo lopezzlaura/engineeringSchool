@@ -39,21 +39,21 @@
   
   <xs:complexType name="promotionType">
 	<xs:sequence>
-		<xs:element name="student" type="studentType"/>
+		<xs:element maxOccurs="unbounded" name="student" type="studentType"/>
 	</xs:sequence>
 	<xs:attribute ref="label" />
   </xs:complexType> 
   
   <xs:complexType name="departmentType">
 	<xs:sequence>
-		<xs:element name="promotion" type="promotionType" />
+		<xs:element maxOccurs="unbounded" name="promotion" type="promotionType" />
 	</xs:sequence>
 	<xs:attribute ref="label" />
   </xs:complexType>
   
   <xs:complexType name='engineeringSchoolType'>
 	<xs:sequence>
-		<xs:element name="department" type="departmentType" />
+		<xs:element maxOccurs="unbounded" name="department" type="departmentType" />
 	</xs:sequence>
 	<xs:attribute ref="label" />
 	<xs:attribute name="city" type="xs:string" />
