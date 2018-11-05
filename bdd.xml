@@ -4,6 +4,7 @@
 <engineeringSchool label="Polytech" city="Nice"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:noNamespaceSchemaLocation="bdd_schema.xsd">
+     Voici l'école d'ingénieur Polytech Nice Sophia, composé de sa magnifique équipe enseignante :
     <teachers>
         <teacher idTeacher="1">
             <name>Mickael</name>
@@ -46,6 +47,7 @@
             <country>France</country>
         </teacher>
     </teachers>
+    Ainsi que des cours géniaux qui sont les suivants : 
     <lectures>
         <lecture name="anglais" ref-teacher="1"/>
         <lecture name="info" ref-teacher="2"/>

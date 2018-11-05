@@ -34,7 +34,7 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="studentType">
+    <xs:complexType name="studentType" mixed="true">
         <xs:complexContent>
             <xs:extension base="person">
                 <xs:sequence>
@@ -70,7 +70,7 @@
     </xs:complexType>
 
     <xs:element name='engineeringSchool'>
-        <xs:complexType>
+        <xs:complexType mixed="true">
             <xs:sequence>
                 <xs:element maxOccurs="unbounded" name="teachers">
                     <xs:complexType>

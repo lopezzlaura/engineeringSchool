@@ -4,7 +4,7 @@ teacher::before {
 }
 
 lecture::before {
-	content: attr(ref-teacher);
+	content: attr(name);
 }
 lectureRef::before{
 	content: attr(ref-lecture);
