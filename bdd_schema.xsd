@@ -50,7 +50,7 @@
             <xs:element name="lectures">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="lectureRef">
+                        <xs:element name="lectureRef" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:attribute name="ref-lecture" type="xs:string"/>
                             </xs:complexType>

@@ -13,9 +13,45 @@
             <email>Kevin.Mickael@etu.unice.fr</email>
             <country>France</country>
         </teacher>
+        <teacher idTeacher="2">
+            <name>Mickael</name>
+            <firstName>Kevin</firstName>
+            <DoB>17/10/95</DoB>
+            <phoneNumber>0320320323</phoneNumber>
+            <email>Kevin.Mickael@etu.unice.fr</email>
+            <country>France</country>
+        </teacher>
+        <teacher idTeacher="3">
+            <name>Mickael</name>
+            <firstName>Kevin</firstName>
+            <DoB>17/10/95</DoB>
+            <phoneNumber>0320320323</phoneNumber>
+            <email>Kevin.Mickael@etu.unice.fr</email>
+            <country>France</country>
+        </teacher>
+        <teacher idTeacher="4">
+            <name>Mickael</name>
+            <firstName>Kevin</firstName>
+            <DoB>17/10/95</DoB>
+            <phoneNumber>0320320323</phoneNumber>
+            <email>Kevin.Mickael@etu.unice.fr</email>
+            <country>France</country>
+        </teacher>
+        <teacher idTeacher="5">
+            <name>Mickael</name>
+            <firstName>Kevin</firstName>
+            <DoB>17/10/95</DoB>
+            <phoneNumber>0320320323</phoneNumber>
+            <email>Kevin.Mickael@etu.unice.fr</email>
+            <country>France</country>
+        </teacher>
     </teachers>
-        <lectures>
-            <lecture ref-teacher="1" name="anglais"/>
+    <lectures>
+        <lecture name="anglais" ref-teacher="1"/>
+        <lecture name="info" ref-teacher="2"/>
+        <lecture name="maths" ref-teacher="3"/>
+        <lecture name="japonais" ref-teacher="4"/>
+        <lecture name="philosophie" ref-teacher="5"/>
     </lectures>
     <department label="SI">
         <promotion label="SI3">
@@ -30,6 +66,8 @@
             </student>
             <lectures>
                 <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="japonais"/>
+                <lectureRef ref-lecture="info"/>
             </lectures>
         </promotion>
         <promotion label="SI4">
@@ -80,6 +118,7 @@
             </student>
             <lectures>
                 <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="info"/>
             </lectures>
         </promotion>
         <promotion label="SI5">
@@ -94,6 +133,7 @@
             </student>
             <lectures>
                 <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="maths"/>
             </lectures>
         </promotion>
     </department>
@@ -109,6 +149,7 @@
                 <idStudent>21080808</idStudent>
             </student>
             <lectures>
+                <lectureRef ref-lecture="japonais"/>
                 <lectureRef ref-lecture="anglais"/>
             </lectures>
         </promotion>
@@ -133,6 +174,7 @@
             </student>
             <lectures>
                 <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="philosophie"/>
             </lectures>
         </promotion>
         <promotion label="ELEC5">
@@ -146,7 +188,7 @@
                 <idStudent>21080808</idStudent>
             </student>
             <lectures>
-                <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="maths"/>
             </lectures>
         </promotion>
     </department>
@@ -162,7 +204,7 @@
                 <idStudent>21080808</idStudent>
             </student>
             <lectures>
-                <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="japonais"/>
             </lectures>
         </promotion>
         <promotion label="BAT4">
@@ -185,7 +227,7 @@
                 <idStudent>21401952</idStudent>
             </student>
             <lectures>
-                <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="philosophie"/>
             </lectures>
         </promotion>
         <promotion label="BAT5">
@@ -199,7 +241,7 @@
                 <idStudent>21080808</idStudent>
             </student>
             <lectures>
-                <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="info"/>
             </lectures>
         </promotion>
     </department>
@@ -238,7 +280,7 @@
                 <idStudent>21401952</idStudent>
             </student>
             <lectures>
-                <lectureRef ref-lecture="anglais"/>
+                <lectureRef ref-lecture="maths"/>
             </lectures>
         </promotion>
         <promotion label="MAM5">
