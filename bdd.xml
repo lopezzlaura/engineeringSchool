@@ -15,9 +15,7 @@
         </teacher>
     </teachers>
         <lectures>
-        <lecture ref-teacher="1">
-            <name>English</name>
-        </lecture>
+            <lecture ref-teacher="1" name="anglais"/>
     </lectures>
     <department label="SI">
         <promotion label="SI3">
@@ -30,7 +28,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
-
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="SI4">
             <student>
@@ -78,6 +78,9 @@
                 <country>FRANCE</country>
                 <idStudent>21401952</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="SI5">
             <student>
@@ -89,6 +92,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
     </department>
     <department label="ELEC">
@@ -102,6 +108,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="ELEC4">
             <student>
@@ -122,6 +131,9 @@
                 <country>FRANCE</country>
                 <idStudent>21401952</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="ELEC5">
             <student>
@@ -133,6 +145,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
     </department>
     <department label="BAT">
@@ -146,6 +161,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="BAT4">
             <student>
@@ -166,6 +184,9 @@
                 <country>FRANCE</country>
                 <idStudent>21401952</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="BAT5">
             <student>
@@ -177,6 +198,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
     </department>
     <department label="MAM">
@@ -190,6 +214,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="MAM4">
             <student>
@@ -210,6 +237,9 @@
                 <country>FRANCE</country>
                 <idStudent>21401952</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
         <promotion label="MAM5">
             <student>
@@ -221,6 +251,9 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
+            <lectures>
+                <lectureRef ref-lecture="anglais"/>
+            </lectures>
         </promotion>
     </department>
 </engineeringSchool>
