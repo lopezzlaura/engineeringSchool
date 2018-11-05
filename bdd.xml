@@ -7,47 +7,47 @@
      Voici l'école d'ingénieur Polytech Nice Sophia, composé de sa magnifique équipe enseignante :
     <teachers>
         <teacher idTeacher="1">
-            <name>Mickael</name>
-            <firstName>Kevin</firstName>
-            <DoB>17/10/95</DoB>
+            <name>Papazian</name>
+            <firstName>Christophe</firstName>
+            <DoB>14/08/75</DoB>
             <phoneNumber>0320320323</phoneNumber>
-            <email>Kevin.Mickael@etu.unice.fr</email>
+            <email>Chistophe.Papazian@unice.fr</email>
             <country>France</country>
         </teacher>
         <teacher idTeacher="2">
-            <name>Mickael</name>
-            <firstName>Kevin</firstName>
-            <DoB>17/10/95</DoB>
+            <name>Mosser</name>
+            <firstName>Sebastien</firstName>
+            <DoB>17/10/86</DoB>
             <phoneNumber>0320320323</phoneNumber>
-            <email>Kevin.Mickael@etu.unice.fr</email>
-            <country>France</country>
+            <email>Sebastien.Mosser@unice.fr</email>
+            <country>Montreal</country>
         </teacher>
         <teacher idTeacher="3">
-            <name>Mickael</name>
-            <firstName>Kevin</firstName>
-            <DoB>17/10/95</DoB>
+            <name>Faron</name>
+            <firstName>Catherine</firstName>
+            <DoB>17/10/70</DoB>
             <phoneNumber>0320320323</phoneNumber>
-            <email>Kevin.Mickael@etu.unice.fr</email>
+            <email>Catherine.Faron@unice.fr</email>
             <country>France</country>
         </teacher>
         <teacher idTeacher="4">
-            <name>Mickael</name>
-            <firstName>Kevin</firstName>
-            <DoB>17/10/95</DoB>
+            <name>Deantoni</name>
+            <firstName>Julien</firstName>
+            <DoB>09/10/87</DoB>
             <phoneNumber>0320320323</phoneNumber>
-            <email>Kevin.Mickael@etu.unice.fr</email>
+            <email>Julien.Deantoni@etu.unice.fr</email>
             <country>France</country>
         </teacher>
         <teacher idTeacher="5">
-            <name>Mickael</name>
-            <firstName>Kevin</firstName>
+            <name>Collet</name>
+            <firstName>Philippe</firstName>
             <DoB>17/10/95</DoB>
             <phoneNumber>0320320323</phoneNumber>
-            <email>Kevin.Mickael@etu.unice.fr</email>
+            <email>Philippe.Collet@unice.fr</email>
             <country>France</country>
         </teacher>
     </teachers>
-    Ainsi que des cours géniaux qui sont les suivants : 
+    Ainsi que des cours géniaux qui sont les suivants :
     <lectures>
         <lecture name="anglais" ref-teacher="1"/>
         <lecture name="info" ref-teacher="2"/>
