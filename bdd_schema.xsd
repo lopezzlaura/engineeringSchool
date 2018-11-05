@@ -32,7 +32,7 @@
             </xs:choice>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="studentType" mixed="true">
+    <xs:complexType name="studentType">
         <xs:complexContent>
             <xs:extension base="person">
                 <xs:sequence>
