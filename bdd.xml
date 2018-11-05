@@ -84,11 +84,11 @@
         </promotion>
         <promotion label="SI5">
             <student>
-                <name>Paillart</name>
-                <firstName>Mathieu</firstName>
+                <name>Gardin</name>
+                <firstName>Alexis</firstName>
                 <DoB>14/07/1997</DoB>
                 <phoneNumber>0608080808</phoneNumber>
-                <email>mathieu.paillart@etu.unice.fr</email>
+                <email>alexis.gardin@etu.unice.fr</email>
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
