@@ -1,0 +1,8 @@
+
+teacher::before {
+	content: attr(idTeacher);
+}
+
+lecture::before {
+	content: attr(ref-teacher);
+}

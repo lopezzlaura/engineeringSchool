@@ -4,6 +4,17 @@
 <engineeringSchool label="Polytech" city="Nice"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:noNamespaceSchemaLocation="bdd_schema.xsd">
+	<teachers>
+		<teacher idTeacher="teacher1">
+			<name>prof</name>
+			<firstName>Mathieu</firstName>
+		</teacher>
+	</teachers>
+	<lectures>
+		<lecture ref-teacher="teacher1">
+			<name>Anglais</name>
+		</lecture>
+	</lectures>
 	<department label="SI">
 		<promotion label="SI3">
 			<student>
