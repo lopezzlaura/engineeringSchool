@@ -41,7 +41,7 @@
 	</xs:sequence>
 	<xs:attribute ref="label" />
   </xs:complexType>
-  
+     
   <xs:element name='engineeringSchool'>
 	<xs:complexType>
 		<xs:sequence>
