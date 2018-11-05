@@ -50,11 +50,11 @@
 					<xs:sequence>
 						<xs:element maxOccurs="unbounded" name="teacher">
 							<xs:complexType>
-							<xs:sequence>
-								<xs:element name="name" type="xs:string"/>
-								<xs:element name="firstName" type="xs:string"/>
-							</xs:sequence>
-							<xs:attribute name="idTeacher" type="xs:string" use="required" />
+                                <xs:complexContent>
+                                    <xs:extension base="person">
+                                        <xs:attribute name="idTeacher" type="xs:string" />
+                                    </xs:extension>
+                                </xs:complexContent>
 							</xs:complexType>
 						</xs:element>
 					</xs:sequence>
@@ -74,10 +74,6 @@
 								</xs:sequence>
 								<xs:attribute name="ref-teacher" type="xs:string" use="required" />
 							</xs:complexType>
-							<!-- <xs:keyref name="teacherKeyRef" refer="teacherKey"> -->
-							  <!-- <xs:selector xpath="teacher" /> -->
-							  <!-- <xs:field xpath="@idTeacher" /> -->
-							<!-- </xs:keyref> -->
 						 </xs:element>
 					</xs:sequence>
 				</xs:complexType>

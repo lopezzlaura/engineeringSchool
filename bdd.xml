@@ -14,6 +14,11 @@
             <country>France</country>
         </teacher>
     </teachers>
+        <lectures>
+        <lecture ref-teacher="1">
+            <name>English</name>
+        </lecture>
+    </lectures>
     <department label="SI">
         <promotion label="SI3">
             <student>
@@ -25,11 +30,7 @@
                 <country>FRANCE</country>
                 <idStudent>21080808</idStudent>
             </student>
-            <lectures>
-                <lecture>
-                    <lectureName>English</lectureName>
-                </lecture>
-            </lectures>
+
         </promotion>
         <promotion label="SI4">
             <student>
